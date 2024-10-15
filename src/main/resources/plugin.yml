@@ -1,0 +1,16 @@
+name: ElysiaDailyQuests
+version: '${project.version}'
+main: main.ElysiaDailyQuests
+softdepend:
+  - Chemdah
+commands:
+  ElysiaDailyQuests:
+    aliases:
+      - edq
+permissions:
+  ElysiaDailyQuests.accept:
+    description: 玩家接取每日任务权限
+    default: false
+  ElysiaDailyQuests.admin:
+    description: 允许玩家使用全部指令
+    default: op

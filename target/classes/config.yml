@@ -1,0 +1,10 @@
+Debug: true
+Prefix: "[ElysiaDailyQuests]"
+Default: "默认分组"
+number: 3
+RefreshTime: 00:00
+Messages:
+  OnOpen: "打开%group%分组每日任务成功!"
+  OnAcceptQuests: "成功接取任务%task%!"
+  OnAcceptFailure: "你不能接取更多的任务了"
+  OnFinish: "你完成了今天全部的任务"
